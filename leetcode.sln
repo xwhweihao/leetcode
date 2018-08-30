@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode026", "leetcode01\leetcode026.csproj", "{754F24BA-CB81-4091-A660-037D46B924BA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode122", "leetcode122\leetcode122.csproj", "{02712D59-CD23-4638-A276-3CCDCEF08FE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode189", "leetcode189\leetcode189.csproj", "{A54C3D22-E217-41B2-AF84-E43666BF5C49}"
@@ -15,15 +13,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode136", "leetcode136\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode350", "leetcode350\leetcode350.csproj", "{ECF77A25-05EA-4907-9D6F-D891CC60CD49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode066", "leetcode66\leetcode066.csproj", "{94056CFD-48B0-4565-86B8-CCA46B94977E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode283", "leetcode283\leetcode283.csproj", "{6ADF63A6-75FA-40D8-B483-7DA063191B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode001", "leetcode1\leetcode001.csproj", "{58BDDC6A-FBA5-4836-8B87-4481A7255C61}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode036", "leetcode36\leetcode036.csproj", "{6FFC0561-682C-4182-A636-49645000EE9A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode048", "leetcode048\leetcode048.csproj", "{66860F07-AC3F-4673-B891-B1F900CC0AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode001", "leetcode001\leetcode001.csproj", "{58BDDC6A-FBA5-4836-8B87-4481A7255C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode026", "leetcode026\leetcode026.csproj", "{754F24BA-CB81-4091-A660-037D46B924BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode036", "leetcode036\leetcode036.csproj", "{6FFC0561-682C-4182-A636-49645000EE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode066", "leetcode066\leetcode066.csproj", "{94056CFD-48B0-4565-86B8-CCA46B94977E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{754F24BA-CB81-4091-A660-037D46B924BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{754F24BA-CB81-4091-A660-037D46B924BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{754F24BA-CB81-4091-A660-037D46B924BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{754F24BA-CB81-4091-A660-037D46B924BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02712D59-CD23-4638-A276-3CCDCEF08FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02712D59-CD23-4638-A276-3CCDCEF08FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02712D59-CD23-4638-A276-3CCDCEF08FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,26 +51,30 @@ Global
 		{ECF77A25-05EA-4907-9D6F-D891CC60CD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF77A25-05EA-4907-9D6F-D891CC60CD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF77A25-05EA-4907-9D6F-D891CC60CD49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6ADF63A6-75FA-40D8-B483-7DA063191B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6ADF63A6-75FA-40D8-B483-7DA063191B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ADF63A6-75FA-40D8-B483-7DA063191B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ADF63A6-75FA-40D8-B483-7DA063191B47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FFC0561-682C-4182-A636-49645000EE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FFC0561-682C-4182-A636-49645000EE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FFC0561-682C-4182-A636-49645000EE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FFC0561-682C-4182-A636-49645000EE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66860F07-AC3F-4673-B891-B1F900CC0AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66860F07-AC3F-4673-B891-B1F900CC0AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66860F07-AC3F-4673-B891-B1F900CC0AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66860F07-AC3F-4673-B891-B1F900CC0AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BDDC6A-FBA5-4836-8B87-4481A7255C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754F24BA-CB81-4091-A660-037D46B924BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754F24BA-CB81-4091-A660-037D46B924BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754F24BA-CB81-4091-A660-037D46B924BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754F24BA-CB81-4091-A660-037D46B924BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFC0561-682C-4182-A636-49645000EE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFC0561-682C-4182-A636-49645000EE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFC0561-682C-4182-A636-49645000EE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFC0561-682C-4182-A636-49645000EE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94056CFD-48B0-4565-86B8-CCA46B94977E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
