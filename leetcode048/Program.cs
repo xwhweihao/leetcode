@@ -20,9 +20,37 @@ namespace leetcode048
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// 效率较低
+        /// </summary>
+        /// <param name="matrix"></param>
         public static void Rotate(int[,] matrix)
         {
+            var length = matrix.Length;
 
+            var n = Convert.ToInt32(Math.Sqrt(length));
+
+            var datalist = new List<List<int>>();
+
+            for (int i = 0; i < n; i++)
+            {
+                var row = new List<int>();
+                for (int j = 0; j < n; j++)
+                {
+                    row.Add(matrix[i, j]);
+                }
+                datalist.Add(row);
+            }
+
+            for (int i = n - 1; i >= 0; i--)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    matrix[j, i] = datalist[n - 1 - i][j];
+                }
+            }
         }
+
+
     }
 }
